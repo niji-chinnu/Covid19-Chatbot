@@ -7,7 +7,206 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: 
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: 
+  - action: 
+
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
