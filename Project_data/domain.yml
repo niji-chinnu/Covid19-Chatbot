@@ -1,0 +1,247 @@
+version: "3.0"
+
+intents:
+  - Quarantine_visits
+  - Outside_Activities
+  - globalcovid_pandemic
+  - About_Anezka_WhoAreYou
+  - Quarantine_living_alone
+  - general_ThankYou
+  - aboutVirus_PostalServices
+  - Go_Hospital_See_Doctor
+  - 'yes'
+  - COVID_Description
+  - general_Help
+  - Testing_information
+  - travel_risk_countries
+  - Quarantine_living_with_others
+  - volunteering
+  - Travel_Restrictions
+  - Treatment_info
+  - schools_employees
+  - COVID_Illness_Length
+  - Treatment_shortnessOfBreath
+  - travel_embassies
+  - Quarantine_what_to_do
+  - Cleaning_Disinfecting
+  - Treatment_discovering_medicine
+  - Shopping_Groceries
+  - govt_emergency
+  - Prevention_howto_wash_hands
+  - aboutVirus_HighRiskGroups
+  - aboutVirus_USready
+  - globalcovid_WHO
+  - Paid_Sick_Leave
+  - Protecting_Against_Infection
+  - travel_backtoUS
+  - About_Anezka_hate
+  - masks_availability
+  - Quarantine_social_aid
+  - Testing_Locations
+  - contacts_handover
+  - Case_Count
+  - COVID_Comparing_Illness
+  - Quarantine_eligibility
+  - Symptoms
+  - About_Anezka_HowAreYou
+  - Treatment_vaccine
+  - aboutVirus_Transmission
+  - Unemployment_Application
+  - School_shutdown
+  - COVID_Pets_Animals
+  - Testing_Results
+  - About_Anezka_Greeting
+  - schools_erasmus
+  - aboutVirus_Incubation_Period
+  - Treatment_hospital_capacity
+  - masks_protection
+  - Treatment_reached_capacity
+  - COVID_Mortality_Rate_Likelihood
+  - Event_Shutdowns
+
+responses:
+  utter_Quarantine_visits:
+  - text: According to my sugeestion it will be safe for you if you maintain the distance from all the members
+
+  utter_Outside_Activities:
+  - text: If there is curfew in your city, please dont go outside. You can go to terrace for taking fresh air.
+
+  utter_globalcovid_pandemic:
+  - text: Panedemic means an outbreak of a disease that occurs over a wide geographic area (such as multiple countries or continents) and typically affects a significant proportion of the population, a pandemic outbreak of a disease
+
+  utter_About_Anezka_WhoAreYou:
+  - text: 
+
+  utter_Quarantine_living_alone:
+  - text: 
+
+  utter_general_ThankYou:
+  - text: 
+
+  utter_aboutVirus_PostalServices:
+  - text: 
+
+  utter_Go_Hospital_See_Doctor:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_yes:
+  - text: "Did that help you?"
+
+  utter_COVID_Description:
+  - text: "Great, carry on!"
+
+  utter_general_Help:
+  - text: "Bye"
+
+  utter_Testing_information:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_travel_risk_countries:
+  - text: "Hey! How are you?"
+
+  utter_Quarantine_living_with_others:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_volunteering:
+  - text: "Did that help you?"
+
+  utter_Travel_Restrictions:
+  - text: "Great, carry on!"
+
+  utter_Treatment_info:
+  - text: "Bye"
+
+  utter_schools_employees:
+  - text: "I am a bot, powered by Rasa."
+
+
+  utter_COVID_Illness_Length:
+  - text: "Hey! How are you?"
+
+  utter_Treatment_shortnessOfBreath:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_travel_embassies:
+  - text: "Did that help you?"
+
+  utter_Quarantine_what_to_do:
+  - text: "Great, carry on!"
+
+  utter_Cleaning_Disinfecting:
+  - text: "Bye"
+
+  utter_Treatment_discovering_medicine:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_Shopping_Groceries:
+  - text: "Hey! How are you?"
+
+  utter_govt_emergency:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_Prevention_howto_wash_hands:
+  - text: "Did that help you?"
+
+  utter_aboutVirus_HighRiskGroups:
+  - text: "Great, carry on!"
+
+  utter_aboutVirus_USready:
+  - text: "Bye"
+
+  utter_globalcovid_WHO:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_Paid_Sick_Leave:
+  - text: "Hey! How are you?"
+
+  utter_Protecting_Against_Infection:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_travel_backtoUS:
+  - text: "Did that help you?"
+
+  utter_About_Anezka_hate:
+  - text: "Great, carry on!"
+
+  utter_masks_availability:
+  - text: "Bye"
+
+  utter_Quarantine_social_aid:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_Testing_Locations:
+  - text: "Hey! How are you?"
+
+  utter_contacts_handover:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_Case_Count:
+  - text: "Did that help you?"
+
+  utter_COVID_Comparing_Illness:
+  - text: "Great, carry on!"
+
+  utter_Quarantine_eligibility:
+  - text: "Bye"
+
+  utter_Symptoms:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_About_Anezka_HowAreYou:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_Treatment_vaccine:
+  - text: "Did that help you?"
+
+  utter_aboutVirus_Transmission:
+  - text: "Great, carry on!"
+
+  utter_Unemployment_Application:
+  - text: "Bye"
+
+  utter_School_shutdown:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_COVID_Pets_Animals:
+  - text: "Hey! How are you?"
+
+  utter_Testing_Results:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_About_Anezka_Greeting:
+  - text: "Did that help you?"
+
+  utter_schools_erasmus:
+  - text: "Great, carry on!"
+
+  utter_aboutVirus_Incubation_Period:
+  - text: "Bye"
+
+  utter_Treatment_hospital_capacity:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_masks_protection:
+  - text: "Did that help you?"
+
+  utter_Treatment_reached_capacity:
+  - text: "Great, carry on!"
+
+  utter_COVID_Mortality_Rate_Likelihood:
+  - text: "Bye"
+
+  utter_Event_Shutdowns:
+  - text: "I am a bot, powered by Rasa."
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

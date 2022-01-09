@@ -1,0 +1,1017 @@
+version: "3.0"
+
+nlu:
+- intent: Quarantine_visits
+  examples: |
+    -	Can my friends visit me?
+    -	Can someone come see me during quarantine?
+    -	Is anyone allowed to visit during quarantine? 
+    -	What is a safe distance when someone brings me groceries?
+    -	Are quarantined visits allowed?
+    -	Can I receive visits during quarantine?
+
+- intent: Outside_Activities
+  examples: |
+    - are the local parks open?
+    -	am I safe outside?
+    -	What parks are open?
+    -	can i go to park
+    -	Can I go to the gym or should I avoid it?
+    -	is it dangerous to go outside?
+    -	Will the parks and bike trails remain open?
+    -	can i go outside?
+    -	can i go outside
+    -	when can I go outside
+    -	is it safe to go outside?
+    -	What city parks are open?
+    -	Can I go for a run outside?
+    -	Are the national parks closed?
+
+- intent: globalcovid_pandemic
+  examples: |
+    - How is a pandemic different from an epidemic?
+    -	What is a pandemic?
+    -	What does a pandemic mean?
+    -	The WHO has declared a pandemic in the world. What does this mean?
+
+- intent: About_Anezka_WhoAreYou
+  examples: |
+    - what can I ask you
+    - what can you do
+    - are you a robot?
+    - who you are?
+    - who are you
+    - who am I talking to
+    - what can you help me with
+    - Hello are you a living person? 
+
+- intent: Quarantine_living_alone
+  examples: |
+    - Am I allowed to go to my garden in quarantine?
+    - Can I go shopping when I'm in quarantine?
+    - Can I order food while in quarantine?
+    - "If I am in quarantine, can I go for walks?"
+    - What if I live alone and can't go out to buy food?
+    - What if I live by myself and I'm in quarantine?
+    - What should I do if I live by myself and I'm in quarantine?
+
+- intent: general_ThankYou
+  examples: |
+    - thanks
+    - Thank you
+
+- intent: aboutVirus_PostalServices
+  examples: |
+    - Is it possible to get infected with coronavirus if I have my goods shipped from Chinese stores?
+    - Can I get infected if I receive a package
+    - Can I get infected through a package from China
+    - Does covid spread by packages?
+    - is it dangerous for postal workers
+
+- intent: Go_Hospital_See_Doctor
+  examples: |
+    - "I'm coughing, should I go to the doctor?"
+    - i have a fever. should i go to the hospital?
+    - "I have a cough but am breathing fine, should I go to the hospital or wait?"
+    - I am coughing.  Should I call my doctor?
+    - how do i know whether to go to the doctor?
+    - Do I have to go to the hospital if I get COVID
+    - "If I think I have COVID-19, should I see my Dr?"
+    - can I go to the hospital?
+    - Who should I call if I have symptoms?
+    - Where should I go if I suspect I have coronavirus?
+    - I suspect I have the virus who can I call?
+    - should i go to the doctor now
+    - should i go to the ER if i have a cough
+    - Should I go to the hospital
+    - Should I make an appointment with my Dr?
+    - Should I see a doctor if I am showing the symptoms?
+    - when did I need to call the doctor?
+    - When do i call a doctor
+    - when should I call a doctor
+    - when should I go to a doctor?
+    - When should I go to the doctor?
+    - When should I go to the hospital?
+
+- intent: yes
+  examples: |
+    - That's correct
+    - Yes
+    - Yes it is
+
+- intent: COVID_Description
+  examples: |
+    - What'is Corona Virus
+    - covid what is it
+    - What is covid
+    - what is covid-19
+    - What does covid stand for?
+    - Is covid a disease?
+    - where did covid come from?
+    - I heard about covid what is it?
+    - Where can I learn more about covid?
+    - Where can I find more information about covid 19?
+    - 2019-nCoV
+    - origin of coronavirus
+    - does the virus spread thru surfaces
+    - how does the virus spread
+    - Where did the coronavirus come from?
+    - what is the coronavirus?
+    - what is novel coronavirus?
+    - What is COVID-19?
+    - How dangerous is this?
+    - Has the cause of COVID-19 been identified?
+    - How is COVID-19 spread?
+    - What is corona virus
+    - What is Corona virus?
+    - what is the Corona Virus
+    - what is the corona virus?
+    - where did corona virus start from?
+    - what is covid-19
+    - what is covid19
+    - What is COVID?
+
+- intent: general_Help
+  examples: |
+    - I'm afraid
+    - I need help
+    - Can you help me?
+    - I do not know what to do
+    - what should I do
+    - I'm afraid and don't know what to do
+
+- intent: Testing_information
+  examples: |
+    - Is the covid test able to detect infection even during the incubation period?
+    - can i get tested
+    - ok - I've got enough of those that I think I need to get tested.
+    - my friend has it should i t get tested
+    - is there test kit for coronavirus
+    - Is there a test kit for the coronavirus?
+    - is there a test kit for the coronavirus
+    - is there a test kit for coronavirus
+    - is there a test for the coronavirus
+    - Is there a test for teh coronavirus
+    - is there a test for coronavirus
+    - is there a coronavirus test kit
+    - Can I get tested at home?
+    - Is it possible to test for covid 19 during the incubation period?
+    - Is it possible to detect the disease during the incubation period?
+    - I have symptoms. Should I get tested?
+    - "I have a fever, should I get tested?"
+    - do i need to get tested?
+    - coronavirus test kit
+    - Can I test myself?
+    - can i get tested?
+    - can I get tested quickly?
+    - can i get tested for cover?
+    - When is the coronavirus test able to detect the disease?
+    - What is the test to detect covid 19?
+    - Should we get tested if we only have symptoms
+    - should i get tested if I do not have symptoms but think I've been exposed?
+    - Should I get tested for COVID-19?
+
+- intent: travel_risk_countries
+  examples: |
+    - Which countries are more of a risk?
+    - Which countries have been affected?
+    - Which countries should I avoid?
+    - What are the risky countries?
+    - Show me the list of high-risk countries.
+    - Which countries are affected by covid 19?
+    - Which countries are high risk to travel to?
+  
+- intent: Quarantine_living_with_others
+  examples: |
+    - "I live in an apartment with my girlfriend, but I am under quarantine now.  What should I do?"
+    - How should I quarantine if I live with other people?
+    - How can I quarantine if I have family living with me?
+    - How am I supposed to be quarantined when I live with other people?
+    - What if I have a roommate and I'm put under quarantine?
+    - My wife is in quarantine.  Do I need to be as well?
+    - "If a member of my family is in quarantine, what should I do?"
+
+- intent: volunteering
+  examples: |
+    - I want to help with babysitting.
+    - I want to help with shopping for the old.
+    - I would like to get involved as a volunteer in the current situation but I do not know how to get involved.
+    - I'm a doctor how can I help?
+    - I want to help I'm a student.
+    - I'm a medical student and I want to get involved. How can I help?
+    - I want to help those at high risk with shopping. Where can I find information on how to help?
+
+- intent: Travel_Restrictions
+  examples: |
+    - Do I need a doctor's note to travel?
+    - Can I travel in the current emergency situation?
+    - Can I travel out of the country?
+    - Can I visit relatives in another state?
+    - Can I travel for work?
+    - Should I cancel my flight to Denver?
+    - What if I urgently need to take a flight?
+    - Are there any travel restrictions in place yet?
+    - testing travelers?
+    - Is it safe to fly to Seattle?
+    - Should I change my travel plans?
+    - Can I travel?
+    - I just travelled. What do I do?
+    - do i need to stay home
+
+- intent: Treatment_info
+  examples: |
+    - How can I lower my temperature if I have the coronavirus?
+    - can medication reduce fever caused by a possible covid infection?
+    - Can medication be used to reduce fever?
+    - what medicines should I take if I have coronavirus
+    - what medicine work best for treatment ?
+    - What medicine should I take for COVID 19
+    - what medicine should I be taking for Covid 19
+    - What medicine should I avoid taking if I have coronavirus
+    - what kind of medicine should I take
+    - What is the treatment for this disease?
+    - Can I take ibuprofen if I have corona virus?
+    - What is the treatment for covid-19?
+    - Should I take Theraflu?
+    - Medication that helps with coronavirus
+    - Is there a medication to reduce temperature with covid-19?
+    - Is there a medication that can help me feel better?
+    - I heard about a medication for coronavirus treatment
+    - How to treat covid?
+    - best vitamin to take
+    - Can I lower my temperature using medication?
+    - what medicines work best
+    - How do we treat covid?
+    - How do I treat coronavirus?
+
+- intent: schools_employees
+  examples: |
+    - I am a teacher / educator / employee of a school what restrictions apply to me?
+    - I'm teaching at a school that's closed. What should I do?
+    - I'm working at a school that's closed now. What should I do?
+    - They closed my school and I have nowhere to work.
+    - What should I   - 
+
+- intent: COVID_Illness_Length
+  examples: |
+    - How long will I feel terrible?
+    - how long does the virus last?
+    - how long does the virus last
+    - How long does the disease last?
+    - How long does the coronavirus last?
+    - how long does the corona virus last?
+    - how long does it take for the virus to run through my system?
+    - how long does it last?
+    - how long does it last
+    - How long does COVID-19 last?
+    - how long does coronavirus last
+    - How long do I need to quarantine before I no longer can transmit the virus?
+    - how long can I expect to be sick?
+
+- intent: Treatment_shortnessOfBreath
+  examples: |
+    - what is shortness of breath
+    - describe shortness of breath
+    - how do I know if I'm suffering from shortness of breath
+    - What does breathlessness look like
+
+- intent: travel_embassies
+  examples: |
+    - I am abroad who should I contact?
+    - who to contact when I'm in the high risk area
+    - "I need to get home from abroad, who can help me?"
+    - I am currently traveling out of the country. Who should I contact?
+    - I am abroad who to contact?
+
+- intent: Quarantine_what_to_do
+  examples: |
+    - If I have Covid how long do I have to self isoclate
+    - How long do I have to stay in quarantine?
+    - How long should I be in quarantine?
+    - How long should I Quarrantine?
+    - How long should you self-quarantine?
+    - how long will we have to self quarantine?
+    - "if i have syptoms, how long should i quartine for?"
+    - "If infected, how long should individuals self-quarantine?"
+    - Is anyone checking for compliance with those ordered to quarantine?
+    - What can I do when I'm in quarantine?
+    - What exactly is home quarantine?
+    - What if I break quarantine?
+    - What should I do if I have been quarantined?
+    - What should I do in quarantine?
+    - Who is responsible for quarantined people?
+    - A colleague is breaking quarantine what should I do?
+    - Are people in quarantine checked?
+    - How does Quarantine work?
+    - How long do I have to be stuck at home?
+    - How long do I have to self isolate if I have tested positive?
+    - How long does it take to quarantine?
+
+- intent: Cleaning_Disinfecting
+  examples: |
+    - Do I have to use bleach to kill coronavirus?
+    - Whats the difference between cleaning and disinfecting?
+    - Do I need lysol wipes?
+    - How do I clean my home properly?
+    - Do I need to do both?
+    - Does alcohol kill the coronavirus?
+    - What cleaning methods kill the coronavirus?
+    - Are there disinfectants available that can inactivate (kill) COVID-19?
+    - Should I spray myself or my kids with disinfectant?
+    - is lysol enough to get rid of covid virus from countertops
+    - what cleaning regimen should I follow
+    - how do i get rid of germs at my home
+    - "All the stores are out of disinfecting wipes, what do I do?"
+    - mopping products
+    - disinfectant products
+    - cleaning products
+    - How often do I need to clean my home to prevent the spread of coronavirus?
+
+- intent: Treatment_discovering_medicine
+  examples: |
+    - When will covid-19 medicines be ready?
+    - Is it possible to estimate how long it will take to administer the drug / vaccine to people?
+    - How long will it be until there is a vaccine?
+    - How long does it take to develop a vaccine?
+    - When can I expect drugs for the virus?
+
+- intent: Shopping_Groceries
+  examples: |
+    - can we go to the store?
+    - what grocery store in keller is open?
+    - Is it safe to go to the grocery store?
+    - Is it safe to go to Costco?
+    - Is it okay to go grocery shopping?
+    - is it ok for me to go to the grocery store
+    - I need medicine. Can I go to the store?
+    - Can I still go to the grocery store?
+    - can I still go grocery shopping
+    - can i go to the store.
+    - Can I go to the grocery store?
+    - can I go to the grocery store or will I catch corona
+    - can i go to the grocery store
+    - can I go to grocery stores
+    - are grocery stores still open
+    - Am I allowed to go to the grocery store?
+
+- intent: govt_emergency
+  examples: |
+    - How long will the state of emergency last?
+    - Is the government legally allowed to close shops and restaurants?
+    - Is there a nationwide curfew?
+    - What does a state of emergency mean?
+    - What are the crisis measures currently in place?
+    - A national emergency was declared in the United States. What does this mean?
+    - Can the government close public places?
+    - How does the state of emergency affect me?
+    - When will the national emergency end?
+    - What measurements is the government taking?
+    - What is a national emergency?
+    - What has our government already done to reduce the risk of spreading the disease
+    - How is the US government addressing the spread of covid-19?
+    - How long has the national emergency been in place?
+
+- intent: Prevention_howto_wash_hands
+  examples: |
+    - Effective cleaning and hand washing techqniques
+    - How do I wash my hands properly?
+    - How should I properly wash my hands?
+    - How to wash your hands properly?
+    - Washing your hands effectively
+
+- intent: aboutVirus_HighRiskGroups
+  examples: |
+    - Which age group is at an increased risk of getting covid 19?
+    - Is Covid Dangerous To pregnant women?
+    - who is the most vulnerable to covid
+    - Who is most at risk?
+    - who is most at risk
+    - who is in danger
+    - What is the risk of coronavirus for pregnant women?
+    - what groups are most at risk
+    - What population groups are most at risk?
+    - What is the risk of covid for pregnant women?
+    - I have cancer am I at risk of coronavirus?
+
+- intent: aboutVirus_USready
+  examples: |
+    - How is the United States prepared for the spread of covid 19?
+    - is the government ready for covid
+    - Is the US well prepared for covid 19
+    - What measures is the US taking against covid-19?
+    - do we have enough protective measures?
+  
+- intent: globalcovid_WHO
+  examples: |
+    - What does the WHO do?
+    - What is recommended by WHO and other international organizations regarding coronavirus?
+    - What opinion does the World Health Organization (who) have on next steps?
+    - What position does the WHO have?
+    - What has the world health organization said about covid 19?
+
+- intent: Paid_Sick_Leave
+  examples: |
+    - tell me about paid sick leave
+    - paid sick leave
+    - will Texas provide paid sick leave
+    - will paid sick leave be available for Uber drivers?
+    - am I eligible for paid sick leave
+    - am I eligible for sick leave
+    - can i get paid sick leave
+    - Can i still get paid sick leave for 14 days if i get corona
+    - do i get paid leave time
+    - do I get paid sick leave
+    - does my workplace offer paid sick leave?
+    - duration of paid sick leave?
+    - how long can i get [paid sick leave
+    - how long can i get paid sick leave
+    - How much do I get paid for sick leave
+    - How much paid sick leave will I get if I am contracted with the virus?
+    - If I get sick will I continue to get paid?
+    - Will my employer give me paid leave if I have coronavirus?
+    - Will I get paid leave?
+    - Will I get paid if I have COVID-19?
+    - Will government employees be paid during sick leave?
+    - who is eligible to get paid sick leave
+    - who is able to get paid sick leave
+    - When am I entitled to take paid sick leave?
+    - What if I don't have paid sick leave?
+    - what if I don't have paid sick leave
+
+- intent: Protecting_Against_Infection
+  examples: |
+    - what can i do to prevent COIVD?
+    - What should I do to stay safe?
+    - What is the risk of my child becoming sick with COVID-19?
+    - Do I need to wear a face mask?
+    - How do I protect myself?
+    - What’s the best way to prevent coronavirus?
+    - How often should I wash my hands?
+    - How can I protect my family from the spread of coronavirus?
+    - how to I prevent myself from getting sick?
+    - how do I ensure my family is safe?
+    - Is it even possible to avoid the virus?
+    - How to Prevent the Spread of the Virus
+    - prevent the spread of the virus
+    - what should i do to contain the spread of the virus
+    - How do you protect yourself?
+    - How to prevent covid infection?
+    - What is the best prevention?
+    - Do I need to disinfect my cell phone when I get home
+    - Can I protect myself by drinking alcohol
+    - Does the sun kill coronavirus?
+    - What will help me prevent covid infection?
+    - What should I do to avoid getting sick?
+    - How do I avoid Coronavirus
+    - What is the most effective prevention?
+    - What rules should I follow to prevent covid illness?
+    - Should I avoid people?
+    - how can i prevent coronavirus
+    - how do I stay safe
+    - what can I do to avoid getting sick?
+    - What can I do to not get sick?
+    - precautionary measures
+    - what is the best way to prevent coronavirus
+    - how do i prevent catching the desease
+    - what can i do to prevent getting coronavirus?
+    - how can I not get sick
+    - How can I avoid getting sick?
+    - what can i do to stay safe
+    - What is effective prevention against covid?
+    - Does eating garlic help?
+    - What are some good tips for prevention?
+    - How to avoid catching covid-19.
+    - How do I avoid covid-19?
+
+- intent: travel_backtoUS
+  examples: |
+    - When can I return to the United States?
+    - Can I return to the United States if I am abroad?
+    - Can I return to the United States?
+    - I am in Europe and I want to return to the United States. Is that possible?
+    - I'm in a covid-free area can I come back to the United States?
+    - Returning from abroad
+
+- intent: About_Anezka_hate
+  examples: |
+    - This is crap
+    - I'm hanging up
+    - I hate you
+    - I hate this
+    - I hate these kinds of things
+    - I hate
+    - I don't like this
+    - everything is horrible
+    - go to hell
+    - This is hateful
+
+- intent: masks_availability
+  examples: |
+    - Why aren't there enough masks and respirators?
+    - Why are there no masks and respirators in pharmacies?
+    - Why are no masks or respirators available anywhere?
+    - Where do people get protective masks or disinfectants?
+    - Where can I get masks?
+    - When will respirators and masks be finally sold?
+    - When will masks be available?
+    - When can I buy a mask at a pharmacy?
+    - When will masks be available at retail stores? They are not yet and we can get infected on public transport before they are.
+    - I'd like a respirator
+    - How is it possible that the state does not have enough masks and respirators?
+    - Why can't I get or find a mask or a respirator anywhere?
+    - Why aren't there respirators?
+    - why aren't any masks available?
+    - When can I buy a mask?
+
+- intent: Quarantine_social_aid
+  examples: |
+    - Tell me about working from home?
+    - I'm in quarantine and can't work.  What should I do?
+    - Am I able to work from my home office?
+    - How can I do my job while I'm in quarantine?
+    - Can I work from home?
+    - Can I work from home during quarantine?
+    - Can I take a sick leave to quarantine?
+
+- intent: Testing_Locations
+  examples: |
+    - I want to be tested for covid-19
+    - None of those sound like they cover how to get tested. Can you tell me how/where I can get tested?
+    - where can I get tested for the coronavirus in New York
+    - "I live in Austin, where can I get tested for Covid-19"
+    - "I live in Ontario, where can I get tested?"
+    - i am in new york where should i get tested
+    - i have symptoms. where can i get tested?
+    - Where can I go to get tested for COVID?
+    - Where can I get tested for coronavirus?
+    - where can i get tested for coronavirus
+    - "I need to get tested, where can I go?"
+    - where can I get tested in new mexico
+    - how do I get screened?
+    - how can i get screened
+    - where can i get screened?
+    - I want a coronavirus test
+    - how do I get a coronavirus test?
+    - where should I go to get screened
+    - how do you test
+    - Where can I test
+    - How can I get a test
+    - how do i get a test?
+    - where can I be tested
+    - where do I get a test
+    - where can i get a test
+    - where can I get a test?
+    - where can I get a test kit
+    - where can I get a test done
+    - where can I get a test done?
+    - Where can I get a COVID-19 test?
+    - where can I get a coronavirus test
+    - Where do I go for COVID19 testing?
+    - where cani get tested
+    - how can I get tested
+    - how do I get tested for Covid -19
+    - where can I get tested in alabama
+    - Where can I get tested for Corona?
+    - where can I get tested in Houston?
+    - Where can I get tested for cover-19
+    - Can I test myself at my house?
+    - Can I get tested at Walgreens?
+    - Can I get tested at my doctor's?
+    - How do I get tested?
+    - Where can I get tested?
+    - can you direct me to the nearest test center
+    - testing spots for coronavirus?
+    - testing locations?
+    - How can I get tested for covid?
+    - How can I get a coronavirus test?
+    - I need to be checked for covid 19.
+    - Who do I contact if I want to get tested for covid 19 infection?
+    - I want a test for coronavirus
+    - where I can get tested
+    - where can I order a coronavirus test
+
+- intent: contacts_handover
+  examples: |
+    - transfer me
+    - switch me to an operator
+    - I want to talk to someone.
+    - I want to talk to an agent
+    - I want to talk to a person.
+    - I want to switch to an operator.
+    - I want to consult an expert.
+    - I want to be transferred
+    - Connect me to someone
+
+- intent: Case_Count
+  examples: |
+    - how many people in texas have corona virus?
+    - How many people are infected with Corona virus currently in texas?
+    - how many people are infected
+    - how many people have the virus?
+    - How many people are infected in Illinois?
+    - How many folks in Texas are infected?
+    - How many coronavirus cases are there in my area?
+    - How many cases of the virus are there in the world?
+    - how many people ar sick in the US?
+    - how many people have contracted the virus in pennysylvania
+    - how many cases are there in Texas?
+    - are people infected in my city ?
+    - how many patients are infected with cornona virus in collin county
+    - How many people have the virus in our county
+    - how many current cases are there in Illinois
+    - Which countries has covid-19 been detected in?
+    - Where can I find information about covid 19 for the world?
+    - How has coronavirus spread around the world?
+    - How many people are sick throughout the world?
+    - How many people total have coronavirus?
+    - How many people have covid-19 in the whole world?
+    - How many people in the world have died?
+    - Are there any cases near me
+    - Does MA have a confirmed COVID case?
+    - how many ppl are infected in the us?
+    - Does the US have a confirmed COVID case?
+    - what is the count of coronavirus infected people?
+    - covid number in my state?
+    - has anyone died of coronavirus in my state?
+    - is anyone near me sick
+    - Where are cases?
+    - How many cases of COVID-19 are in the US?
+
+- intent: COVID_Comparing_Illness
+  examples: |
+    - how does cover-19 compare to the SARS epidemic?
+    - How do flu symptoms differ from coronavirus symptoms?
+    - Flu vs. COVID-19
+    - is this worse than flue
+    - Is this worse than the flu?
+    - is this worse than flu
+    - is this the same as the flu?
+    - Is the coronavirus the same as SARS?
+    - what's the difference between the flu and coronavirus
+    - What's the difference between flu and coronavirus?
+    - What's the difference between flu and coronavirus
+    - Flu vs Coronavirus
+    - flu vs covid19
+    - what is the difference between the flu and coronavirus
+    - what is the difference between flu and coronavirus
+    - What is the difference between COVID-19 and the flu
+    - What is different between flu and coronavirus
+    - SARS vs Corona virus?
+    - Is the coronavirus the same as MERS?
+    - Is the coronavirus the same as a cold?
+    - is covid the same as the flu?
+    - How's the flu different from coronavirus?
+    - how is the flue different from the coronavirus?
+    - How is flu different from corpnavirus
+    - How is corona virus different than SARS?
+
+- intent: Quarantine_eligibility
+  examples: |
+    - which countries are quarantined
+    - will there be a mandated quarantine
+    - when do I know if I need to quarantine?
+    - when can I be ordered to quarantine?
+    - What should I do when I get back from another country?
+    - What should I do if I returned from another country?
+    - What countries are under a quarantine?
+    - Under what conditions do I have to quarantine?
+    - Under what circumstances do I have to quarantine?
+    - I was on vacation in another country.  Do I need to quarantine?
+    - I came back from a country do I have to quarantine?
+    - how do I self quarantine ?
+    - do I have to quarantine when I come back from out of the country?
+    - do i have to quarantine
+    - do I have to go into quarantine?
+
+- intent: Symptoms
+  examples: |
+    - what is the first symptom
+    - what are the covid symtoms
+    - what are symtoms?
+    - what are symptoms
+    - how do I know if i have this thing
+    - how do i know if i have this issue
+    - how do i know if I got this thing
+    - how do i know if i got this
+    - I have headache and sore throat ..what should I do ?
+    - If I only have a sore throat is it Coronavirus?
+    - "I have sore throat, is it coronavirus?"
+    - i have a sore throat
+    - I have sore throat
+    - Ihave sore throat
+    - My child is coughing. Should I be worried?
+    - my child has a high fever and is coughing. what should I do?
+    - Will I throw up if I have the virus?
+    - Will I poop a lot if I have the virus?
+    - what are the most common symptoms of COVID?
+    - what are the symptoms I should look out for
+    - what are covid 19 symptoms
+    - tell me about the symptoms
+    - How do I know if I'm sick with covid-19?
+    - how to distinguish it from a common cold.
+    - how can one know if they have been infected?
+    - I have an irritating cough
+    - what are the symptoms of coronavirus
+    - What to do if I think I have covid?
+    - Will my head hurt if I have covid 19?
+    - Is a headache a symptom of the coronavirus?
+    - I'm afraid I have covid-19
+    - what are the common symptoms
+    - what are the early symptoms of covid-19?
+    - What are the first symptoms for COVID?
+    - what are the symptoms of coronoavirus
+    - what are the symptoms of COVID-19
+    - what are the COVID-19 symptoms?
+    - what are symptoms of coronvirus
+    - what are the types of symptoms
+    - Hi what are the symptoms?
+    - What are the symptoms?
+    - what are my symptoms
+    - I feel congested and have a fever
+    - am i sick
+    - I think i'm infected
+    - should I get tested if I have a cough?
+    - I think I might have the virus.
+    - I have travled recently. What do I do?
+    - I traveled to Italy recently. What do I do?
+    - Do I need to get tested?
+    - What are symptoms?
+    - how do i know if im sick
+    - do I have covid?
+    - my throat and head hurt
+    - my throat hurts and I have a headache as well
+    - should i get tested
+    - Symptoms
+    - Wet cough
+    - temperature
+    - I can not breath very well
+    - rhinitis
+    - I'm having respiratory problems
+    - I thing I feel symptoms of the disease
+    - my eyes are burning
+    - I have a burning feeling in my chest
+    - I think I have covid 19
+    - My husband has coronavirus symptoms
+    - My girlfriend has symptoms of covid-19
+    - I have a temperature and cough. Do I have the coronavirus?
+    - I have illness symptoms
+    - I have a fever
+    - Is rash a symptom of covid-19?
+    - what symptoms are typical with this disease
+    - What are the symptoms of the disease?
+    - What are the symptoms of covid?
+    - what are the symptoms
+
+- intent: About_Anezka_HowAreYou
+  examples: |
+    - how does this work
+    - how are you
+    - how is it going
+    - How are you doing
+
+- intent: Treatment_vaccine
+  examples: |
+    - Is there a vaccine for Covid-19
+    - is there a vaccine for covid
+    - Is there a vaccine for coronavirus?
+    - Is there a vaccine for corona virus
+    - Is there a cure for covid-19?
+    - Is there a cure for covid 19?
+    - Is there a covid vaccine?
+    - Is the covid vaccine ready?
+    - Covid-19 vaccine?
+    - Is there a vaccine?
+    - Is there a vaccine for this
+    - Is there a vaccine for the coronavirus?
+    - is there a vaccine for Covid-19?
+
+- intent: aboutVirus_Transmission
+  examples: |
+    - How does covid spread?
+    - When does a person become contagious?
+    - spreading covid to others
+    - number of infected
+    - Is it possible to get infected from the infected person the next day?
+    - is it contagious
+    - is covid19 contagious?
+    - is covid-19 contagious?
+    - is covid transmissible from animals?
+    - Is Coronavirus contagious?
+    - How would I get covid?
+    - How would I catch it?
+    - how many people are infected in the United States
+    - How is covid transmitted?
+    - How does the infection spread
+    - how does covid-19 spread to others
+    - how does covid-19 spread
+    - how does covid spread
+    - how can covid be transmitted
+    - how does coronavirus spread?
+    - How do I catch the virus?
+    - How contagious is COVID-19?
+    - How can I get infected?
+
+- intent: Unemployment_Application
+  examples: |
+    - I have a question about unemployment
+    - i need to apply for unemployment.  how do I do it
+    - what can I do if I lose my job
+    - what can I do if I lose my job?
+    - What do I do if I don't have unemployment insurance?
+    - how can i apply for unemployment during this outbreak?
+    - how can I apply for unemployment?
+    - how do I apply for unemployment
+    - how do I apply for unemployment because of coid-19
+    - how do I apply for unemployment benefits due to Covid-19?
+    - how do I apply for unemployment benefits?
+    - What happens if I lose my job?
+    - where can I apply for unemployment
+    - apply for unemployment
+    - how long can I get unemployment?
+    - how long does it take to get unemployment
+    - how to apply for unemployment
+    - how to I apply for unemployment
+    - i can't go to work.  can i get unemployment?
+
+- intent: School_shutdown
+  examples: |
+    - can my kids return to high school
+    - Is graduation delayed?
+    - When does covid vacation end?
+    - When will my good go back to school?
+    - When is school back in session?
+    - When will teaching go back to work?
+    - How long is teaching on hold?
+    - When will schools close?
+    - Will there be exams in the summer?
+    - Will graduations be pushed back?
+    - Will there be school in the summer?
+    - Are schools open?
+    - Are my schools closed
+    - Are my children's schools closed?
+    - Which schools are closed?
+    - are schools open
+    - Is my kids school closed?
+    - are schools in my area closed
+    - are schools closed?
+    - are my schools closed?
+    - Is my school closed?
+    - what schools are closed
+    - when can my kid go back to high school
+    - when will my kids school reopen
+    - When can my kid go back to college
+    - When will my kids be back in school?
+    - when do the children go back to school
+    - when can my kid go back school
+    - when can kids return to school
+    - when can my kids go back to school
+    - when can my kids go back to college?
+    - when can my kids go back to high school in 78712
+    - I live in 78709. when will my kids high school reopen?
+    - where can my kids go back to school
+    - Will classes be moved to summer?
+    - Are schools shut down?
+    - Can my child go to school?
+    - When will the schools open?
+    - Is HS 123 open?
+    - How will the shutdown impact my child's attendance records?
+    - Will students still graduate this year?
+    - What does the ordered school closure mean for report cards?
+    - What happens after the ordered three-week closure period ends?
+    - Should my child stay home from school?
+    - How can I get the latest news on my school closure?
+    - when can i send my kids back to school
+    - when can kid go back to school
+    - when can my kid go back to school
+    - when can my high school senior go back to school
+    - When can I return to school?
+    - when can my kids back school
+    - ARE COLLEGES OPEN
+    - is my school closed
+    - is my kids school closed
+    - are schools closed
+    - are schools closed in my area
+    - are schools closed ?
+    - is the school closed
+
+- intent: COVID_Pets_Animals
+  examples: |
+    - Can dogs spread the corona virus?
+    - Can animal get the corona virus?
+    - Are my pets at risk from Corona Virus?
+    - can dogs get the coronavirus?
+    - Can dogs get the corona virus?
+    - can dogs get covid19?
+    - can dogs catch the corona virus
+    - Can the dog get sick with corona virus?
+    - can pets get the virus
+    - can pets get covid
+    - can pets contract the virus
+    - Can my pets get the virus?
+    - Can my pets carry the virus?
+    - Can I get corona virus from my pet?
+
+- intent: Testing_Results
+  examples: |
+    - testing_results
+    - My doctor hasn't given me my test results back yet.
+    - When can I get my results?
+    - How can I get my test results?
+    - Its been a week. Who can I call to get my test results?
+    - Who will give me my COVID test results?
+    - I was tested yesterday when do I hear back?
+    - Do my test results come in the mail?
+    - test outcomes?
+
+- intent: About_Anezka_Greeting
+  examples: |
+    - good afternoon
+    - good evening
+    - good morning
+    - Hello
+    - Hey
+    - Hi
+    - What's up
+
+- intent: schools_erasmus
+  examples: |
+    - "I am on a exchange trip, should I cancel it?"
+    - We're on an exchange trip now what?
+    - Should I quit the study abroad program?
+    - The son is on an exchange trip
+    - Can I leave for an exchange trip?
+    - Daughter is studying abroad what do we do?
+
+- intent: aboutVirus_Incubation_Period
+  examples: |
+    - Incubation period of coronavirus?
+    - What is the incubation period of covid?
+    - How long before I get symptons?
+    - how long do symptons take to develop ?
+    - how long is the incubation period for covid-19
+    - How long is the incubation period of covid 19?
+    - How long is the incubation period?
+    - How long are people infected with COVID-19 before they are symptomatic?
+    - How long before I experience covid-19 symptons?
+
+- intent: Treatment_hospital_capacity
+  examples: |
+    - How many hospital beds do we have in the US?
+    - How many hospital beds are available in the United States?
+    - How many beds are available in the hospitals?
+    - What is the hospital capacity for covid 19 patients?
+    - How many beds are available for covid-19 patients?
+
+- intent: masks_protection
+  examples: |
+    - Does a mask or respirator help prevent covid infection?
+    - Do I have to wear a mask when I'm outside or taking a walk?
+    - Can I go out without a respirator?
+    - Can a mask help me?
+    - Will a respirator help me?
+    - When should I wear a respirator?
+    - When should I wear a mask?
+    - should I wear a respirator?
+    - Should I wear a mask so I don't get infected?
+    - Should I wear a mask or a respirator?
+    - Should I buy a respirator?
+    - I often travel by public transport. Should I wear a respirator?
+    - Do I have to wear a respirator?
+
+- intent: Treatment_reached_capacity
+  examples: |
+    - What should I do if the hospital won't take me in?
+    - The hospital sent me home because of a lack of beds.
+    - The hospital is full and they sent me home.
+    - In the event there is a large number of infected and hospitals can't manage to treat everyone what is recommended treatment for home quarantine and self-medication?
+    - What happens when the hospital is full?
+
+- intent: COVID_Mortality_Rate_Likelihood
+  examples: |
+    - what is the mortality rate for covid 19
+    - am i going to die
+    - am I going to die from the Covid virus?
+    - am I going to die?
+    - Are my kids going to die?
+    - can i die from COVID-19
+    - mortality rate?
+    - what is the mortality rate of Covid-19
+    - what is the mortality rate of covid-19?
+    - What is the mortality rate of the virus?
+    - will i die from covid-19
+    - Will I die if I get coronavirus>
+
+- intent: Event_Shutdowns
+  examples: |
+    - Are events being shut down?
+    - How do I know if my concert is cancelled?
+    - Are groups of people allowed to meet?
+    - What is the maximum number of people allowed to meet right now?
+    - Why is the government shutting down my event?
+    - Should I feel safe going to the movies?
+    - When will the NHL return?
+    - events and large gatherings
+    - When will the NCAA championships be held?
+    - What sports are being cancelled?
+    - Will I get a refund for a ticket I purchased?
+    - can I still attend a conference

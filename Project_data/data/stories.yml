@@ -1,0 +1,18 @@
+version: "3.0"
+
+stories:
+
+- story: visit
+  steps:
+  - intent: Quarantine_visits
+  - action: utter_Quarantine_visits
+
+- story: Activities
+  steps:
+  - intent: Outside_Activities
+  - action: utter_Outside_Activities
+
+- story: Path to pandemic
+  steps:
+  - intent: globalcovid_pandemic
+  - action: utter_globalcovid_pandemic
