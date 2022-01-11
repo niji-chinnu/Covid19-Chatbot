@@ -18,190 +18,190 @@ rules:
   - intent: globalcovid_pandemic
   - action: utter_globalcovid_pandemic
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
 
-# - rule: 
-#   steps:
-#   - intent: 
-#   - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
+
+- rule: 
+  steps:
+  - intent: 
+  - action: 
