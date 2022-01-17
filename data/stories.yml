@@ -172,7 +172,6 @@ stories:
   - intent: About_Anezka_hate
   - action: utter_About_Anezka_hate
 
-  
 - story: Work on Quarantine 
   steps:
   - intent: Quarantine_social_aid
@@ -181,7 +180,7 @@ stories:
   
 - story: Test Locations 
   steps:
-  - intent: Testing_Locations About_Anezka_hate
+  - intent: Testing_Locations
   - action: utter_Testing_Locations
   
 - story: Emergency contact
