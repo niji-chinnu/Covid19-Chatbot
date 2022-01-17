@@ -1,0 +1,291 @@
+version: "3.0"
+
+stories:
+
+- story: visit
+  steps:
+  - intent: Quarantine_visits
+  - action: utter_Quarantine_visits
+
+- story: Activities
+  steps:
+  - intent: Outside_Activities
+  - action: utter_Outside_Activities
+
+- story: Pandemic Meaning 
+  steps:
+  - intent: globalcovid_pandemic
+  - action: utter_globalcovid_pandemic
+
+- story: Anezka
+  steps:
+  - intent: About_Anezka_WhoAreYou
+  - action: utter_About_Anezka_WhoAreYou
+   
+- story: Quarantine Guidelines 
+  steps:
+  - intent: Quarantine_living_alone
+  - action: utter_Quarantine_living_alone
+
+- story: Greetings 
+  steps:
+  - intent: general_ThankYou
+  - action: utter_general_ThankYou
+
+- story: Postal Services 
+  steps:
+  - intent: aboutVirus_PostalServices
+  - action: utter_aboutVirus_PostalServices
+
+- story: When to Seek Medical 
+  steps:
+  - intent: Go_Hospital_See_Doctor
+  - action: utter_Go_Hospital_See_Doctor
+
+- story: reply with yes 
+  steps:
+  - intent: yes
+  - action: utter_yes
+
+- story: About Corona virus 
+  steps:
+  - intent: COVID_Description
+  - action: utter_COVID_Description
+
+- story: Helpline 
+  steps:
+  - intent:  general_Help
+  - action: utter_general_Help
+
+- story: covid test information
+  steps:
+  - intent: Testing_information
+  - action: utter_Testing_information
+
+- story: Travel Risk Countries
+  steps:
+  - intent: travel_risk_countries
+  - action: utter_travel_risk_countries
+
+- story: Quarantine at Home
+  steps:
+  - intent: Quarantine_living_with_others
+  - action: utter_Quarantine_living_with_others
+
+- story: Social Service
+  steps:
+  - intent: volunteering
+  - action: utter_volunteering
+
+- story: Travel Guidelines 
+  steps:
+  - intent: Travel_Restrictions
+  - action: utter_Travel_Restrictions
+
+- story: Covid Treatment Information
+  steps:
+  - intent: Treatment_info
+  - action: utter_Treatment_info
+
+- story: Guidelines for Schools 
+  steps:
+  - intent: schools_employees
+  - action: utter_schools_employees
+
+- story: Covid Illness length
+  steps:
+  - intent: COVID_Illness_Length
+  - action: utter_COVID_Illness_Length
+
+- story: Treatment for breathing problems
+  steps:
+  - intent: Treatment_shortnessOfBreath
+  - action: utter_Treatment_shortnessOfBreath
+
+- story: Travel Embassies 
+  steps:
+  - intent: travel_embassies
+  - action: utter_travel_embassies
+
+- story: Quarintine Guidelines
+  steps:
+  - intent: Quarantine_what_to_do
+  - action: utter_Quarantine_what_to_do
+
+- story: post covid Disinfection
+  steps:
+  - intent: Cleaning_Disinfecting
+  - action: utter_Cleaning_Disinfecting
+
+- story: Information About Covid Medicine
+  steps:
+  - intent: Treatment_discovering_medicine
+  - action: utter_Treatment_discovering_medicine
+
+- story: Shopping During Covid
+  steps:
+  - intent: Shopping_Groceries
+  - action: utter_Shopping_Groceries
+
+- story: Gov Emergency Service
+  steps:
+  - intent: govt_emergency
+  - action: utter_govt_emergency 
+  
+- story: Guidelines for washing hands 
+  steps:
+  - intent: Prevention_howto_wash_hands
+  - action: utter_Prevention_howto_wash_hands
+
+- story: Covid High Risk Groups
+  steps:
+  - intent: aboutVirus_HighRiskGroups
+  - action: utter_aboutVirus_HighRiskGroups
+
+- story: US Covid Information
+  steps:
+  - intent: aboutVirus_USready
+  - action: utter_aboutVirus_USready
+
+- story: Information About WHO
+  steps:
+  - intent: globalcovid_WHO
+  - action: utter_globalcovid_WHO
+
+- story: Information About Paid Sick leave 
+  steps:
+  - intent: Paid_Sick_Leave
+  - action: utter_Paid_Sick_Leave
+
+- story: Precaution for Covid 
+  steps:
+  - intent: Protecting_Against_Infection
+  - action: utter_Protecting_Against_Infection
+
+- story: Travel back to US
+  steps:
+  - intent: travel_backtoUS
+  - action: utter_travel_backtoUS
+
+- story: Hate messages of Anezka
+  steps:
+  - intent: About_Anezka_hate
+  - action: utter_About_Anezka_hate
+
+  
+- story: Work on Quarantine 
+  steps:
+  - intent: Quarantine_social_aid
+  - action: utter_Quarantine_social_aid
+
+  
+- story: Test Locations 
+  steps:
+  - intent: Testing_Locations About_Anezka_hate
+  - action: utter_Testing_Locations
+  
+- story: Emergency contact
+  steps:
+  - intent: contacts_handover
+  - action: utter_contacts_handover
+
+- story: Covid  case count
+  steps:
+  - intent: Case_Count
+  - action: utter_Case_Count
+    
+- story: Emergency contact
+  steps:
+  - intent: contacts_handover
+  - action: utter_contacts_handover
+    
+- story: Covid Variants
+  steps:
+  - intent: COVID_Comparing_Illness
+  - action: utter_COVID_Comparing_Illness
+
+- story: When To Quarantine
+  steps:
+  - intent: Quarantine_eligibility
+  - action: utter_Quarantine_eligibility
+
+- story: Covid Symptoms
+  steps:
+  - intent: Symptoms
+  - action: utter_Symptoms
+
+- story: About Anezka
+  steps:
+  - intent: About_Anezka_HowAreYou
+  - action: utter_About_Anezka_HowAreYou
+
+- story: Corona Vaccine 
+  steps:
+  - intent: Treatment_vaccine
+  - action: utter_Treatment_vaccine
+
+- story: Info on Corona virus transmission
+  steps:
+  - intent: aboutVirus_Transmission
+  - action: utter_aboutVirus_Transmission
+
+- story: Unemployment during Covid
+  steps:
+  - intent: Unemployment_Application
+  - action: utter_Unemployment_Application
+
+- story: info about school shutdown during covid
+  steps:
+  - intent: School_shutdown
+  - action: utter_School_shutdown
+  
+- story: Covid transmission through pets 
+  steps:
+  - intent: COVID_Pets_Animals
+  - action: utter_COVID_Pets_Animals
+
+- story: information regarding test results 
+  steps:
+  - intent: Testing_Results
+  - action: utter_Testing_Results
+
+- story: Anezka Greetings 
+  steps: 
+  - intent: About_Anezka_Greeting
+  - action: utter_About_Anezka_Greeting
+
+
+- story: School erasmus
+  steps:
+  - intent: schools_erasmus
+  - action: utter_schools_erasmus
+
+- story: info about virus incubation period 
+  steps:
+  - intent: aboutVirus_Incubation_Period
+  - action: utter_aboutVirus_Incubation_Period
+
+- story: Hospital bed availability
+  steps:
+  - intent: Treatment_hospital_capacity
+  - action: utter_Treatment_hospital_capacity
+
+- story: info about masks 
+  steps:
+  - intent: masks_protection
+  - action: utter_masks_protection
+
+- story: Hospital Tratment capacity
+  steps:
+  - intent: Treatment_hospital_capacity
+  - action: utter_Treatment_hospital_capacity
+
+- story: Covid Mortality Rate 
+  steps:
+  - intent: COVID_Mortality_Rate_Likelihood
+  - action: utter_COVID_Mortality_Rate_Likelihood
+
+- story: Events During covid 
+  steps:
+  - intent: Event_Shutdowns
+  - action: utter_Event_Shutdowns
