@@ -114,7 +114,6 @@ responses:
   utter_schools_employees:
   - text: "Follow the guidelines issued by state government."
 
-
   utter_COVID_Illness_Length:
   - text: "On average it takes 6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days."
 
@@ -175,7 +174,6 @@ responses:
   utter_contacts_handover:
   - text: "Please wait till Call is get transfered"
 
-
   utter_Case_Count:
   - text: "Please folow the mentioned link to get the latest update on covid cases .https://www.worldometers.info/coronavirus/"
 
@@ -191,7 +189,6 @@ responses:
   utter_About_Anezka_HowAreYou:
   - text: "I am a bot, powered by Rasa."
  
-
   utter_Treatment_vaccine:
   - text: "Yes, Covid vaccines are  Availbale.Please go through the mentioned link for the details of vaccines approved by WHO.https://covid19.trackvaccines.org/agency/who/"
 
