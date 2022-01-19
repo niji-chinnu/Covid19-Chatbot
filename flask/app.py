@@ -12,9 +12,10 @@ import tensorflow as tf
 app = Flask(__name__)
 
 ######################Pre config #################################################
-nest_asyncio.apply()
+
 
 with tf.device("cpu:0"):
+    nest_asyncio.apply()
     modelPath=r"C:\Users\luhar\Projects\Covid19-Chatbot\models\20220119-125350-creative-fender.tar.gz"
     agent = Agent.load(str(modelPath))
     async def parse(text: Text):
@@ -26,6 +27,7 @@ with tf.device("cpu:0"):
 @app.route("/", methods=['GET','POST'])
 def home():
     ret=""
+    msg=""
     if request.method=='POST':
         msg=request.form['fname']
 
