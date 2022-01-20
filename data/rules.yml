@@ -1,0 +1,305 @@
+version: "3.0"
+
+rules:
+
+- rule: Give info about Quanrantine Visit
+  steps:
+  - intent: Quarantine_visits
+  - action: utter_Quarantine_visits
+
+
+- rule: Should we go outside.
+  steps:
+  - intent: Outside_Activities
+  - action: utter_Outside_Activities
+
+- rule: General info about global covid pandemic
+  steps:
+  - intent: globalcovid_pandemic
+  - action: utter_globalcovid_pandemic
+
+- rule: info about Anezka
+  steps:
+  - intent: About_Anezka_WhoAreYou
+  - action: utter_About_Anezka_WhoAreYou
+
+- rule: what can I do in quarantine
+  steps:
+  - intent:  Quarantine_living_alone
+  - action: utter_Quarantine_living_alone
+
+- rule: Greetings
+  steps:
+  - intent: general_ThankYou
+  - action: utter_general_ThankYou
+
+- rule: About postal services
+  steps:
+  - intent: aboutVirus_PostalServices
+  - action: utter_aboutVirus_PostalServices
+
+- rule: General symptoms when to visit doctor
+  steps:
+  - intent: Go_Hospital_See_Doctor
+  - action: utter_Go_Hospital_See_Doctor
+
+- rule: Reply with yes
+  steps:
+  - intent: "yes"
+  - action: utter_yes
+
+
+- rule: Description about covid
+  steps:
+  - intent: COVID_Description
+  - action: utter_COVID_Description
+
+- rule: General help
+  steps:
+  - intent: general_Help
+  - action: utter_general_Help
+
+- rule: Info regarding covid test
+  steps:
+  - intent: Testing_information
+  - action: utter_Testing_information
+
+- rule: Guidelines for Travel abroad
+  steps:
+  - intent: travel_risk_countries
+  - action: utter_travel_risk_countries
+
+- rule: Rules for quarantine at home
+  steps:
+  - intent: Quarantine_living_with_others
+  - action: utter_Quarantine_living_with_others
+
+- rule: Social service
+  steps:
+  - intent: volunteering
+  - action: utter_volunteering
+
+- rule: Restrictions for travel
+  steps:
+  - intent: Travel_Restrictions
+  - action: utter_Travel_Restrictions
+
+- rule: Info about treatment
+  steps:
+  - intent: Treatment_info
+  - action: utter_Treatment_info
+
+- rule: Employees info about closing schools
+  steps:
+  - intent: schools_employees
+  - action: utter_schools_employees
+
+- rule: duration for covid illness
+  steps:
+  - intent: COVID_Illness_Length
+  - action: utter_COVID_Illness_Length
+
+- rule: General info regarding breathing symptoms
+  steps:
+  - intent: Treatment_shortnessOfBreath
+  - action: utter_Treatment_shortnessOfBreath
+
+- rule: Info about travel embassies
+  steps:
+  - intent: travel_embassies
+  - action: utter_travel_embassies
+
+- rule: what to do in Quarantine 
+  steps:
+  - intent: Quarantine_what_to_do
+  - action: utter_Quarantine_what_to_do
+
+- rule: Info about cleaniness
+  steps:
+  - intent: Cleaning_Disinfecting
+  - action: utter_Cleaning_Disinfecting
+
+- rule: Info about medicines
+  steps:
+  - intent: Treatment_discovering_medicine
+  - action: utter_Treatment_discovering_medicine
+
+- rule: going to groceries shop
+  steps:
+  - intent: Shopping_Groceries
+  - action: utter_Shopping_Groceries
+
+- rule: govt emergency curfew
+  steps:
+  - intent: govt_emergency
+  - action: utter_govt_emergency
+
+- rule: how to wash hands to prevent covid
+  steps:
+  - intent: Prevention_howto_wash_hands
+  - action: utter_Prevention_howto_wash_hands
+
+- rule: info about who are at risk groups
+  steps:
+  - intent: aboutVirus_HighRiskGroups
+  - action: utter_aboutVirus_HighRiskGroups
+
+- rule: US precautions for corona
+  steps:
+  - intent: aboutVirus_USready
+  - action: utter_aboutVirus_USready
+
+- rule: Info given by WHO
+  steps:
+  - intent: globalcovid_WHO
+  - action: utter_globalcovid_WHO
+
+- rule: Info about paid sick leave
+  steps:
+  - intent: Paid_Sick_Leave
+  - action: utter_Paid_Sick_Leave
+
+- rule: Info how to prevent covid
+  steps:
+  - intent: Protecting_Against_Infection
+  - action: utter_Protecting_Against_Infection
+
+- rule: info about travel to US
+  steps:
+  - intent: travel_backtoUS
+  - action: utter_travel_backtoUS
+
+- rule: hateful messages
+  steps:
+  - intent: About_Anezka_hate
+  - action: utter_About_Anezka_hate
+
+- rule: info about masks availability
+  steps:
+  - intent: masks_availability
+  - action: utter_masks_availability
+
+- rule: info about work from home during quarantine
+  steps:
+  - intent: Quarantine_social_aid
+  - action: utter_Quarantine_social_aid
+
+- rule: Info about testting locations
+  steps:
+  - intent: Testing_Locations
+  - action: utter_Testing_Locations
+
+- rule:  info about contacts handover
+  steps:
+  - intent: contacts_handover
+  - action: utter_contacts_handover
+
+- rule: info about case count
+  steps:
+  - intent: Case_Count
+  - action: utter_Case_Count
+
+- rule: comparision of illness caused by covid variants
+  steps:
+  - intent: COVID_Comparing_Illness
+  - action: utter_COVID_Comparing_Illness
+
+- rule: Info about Quarantine
+  steps:
+  - intent: Quarantine_eligibility
+  - action: utter_Quarantine_eligibility
+
+- rule: Info regarding symptoms
+  steps:
+  - intent: Symptoms
+  - action: utter_Symptoms
+
+- rule: Info about Anezka
+  steps:
+  - intent: About_Anezka_HowAreYou
+  - action: utter_About_Anezka_HowAreYou
+
+- rule: General info about Treatment vaccine
+  steps:
+  - intent: Treatment_vaccine
+  - action: utter_Treatment_vaccine
+
+- rule: Info about virus transmission
+  steps:
+  - intent: aboutVirus_Transmission
+  - action: utter_aboutVirus_Transmission
+
+- rule: application of unemployement due to covid
+  steps:
+  - intent: Unemployment_Application
+  - action: utter_Unemployment_Application
+
+- rule: info about shutdown due to covid
+  steps:
+  - intent: School_shutdown
+  - action: utter_School_shutdown
+
+- rule: info about covid virus spread in animals
+  steps:
+  - intent: COVID_Pets_Animals
+  - action: utter_COVID_Pets_Animals
+
+- rule: info about covid test results
+  steps:
+  - intent: Testing_Results
+  - action: utter_Testing_Results
+
+- rule: info about Anezka greeting
+  steps:
+  - intent: About_Anezka_Greeting
+  - action: utter_About_Anezka_Greeting
+
+- rule: info about schools erasmus
+  steps:
+  - intent: schools_erasmus
+  - action: utter_schools_erasmus
+
+- rule: info about Virus Incubation Period
+  steps:
+  - intent: aboutVirus_Incubation_Period
+  - action: utter_aboutVirus_Incubation_Period
+
+- rule: info about Treatment hospital capacity
+  steps:
+  - intent: Treatment_hospital_capacity
+  - action: utter_Treatment_hospital_capacity
+
+- rule: info about masks protection
+  steps:
+  - intent: masks_protection
+  - action: utter_masks_protection
+
+- rule: info about Treatment reached capacity
+  steps:
+  - intent: Treatment_reached_capacity
+  - action: utter_Treatment_reached_capacity
+
+- rule: info about COVID Mortality Rate
+  steps:
+  - intent: COVID_Mortality_Rate_Likelihood
+  - action: utter_COVID_Mortality_Rate_Likelihood
+
+- rule: info about Event Shutdowns
+  steps:
+  - intent: Event_Shutdowns
+  - action: utter_Event_Shutdowns
+
+- rule: rule for letx
+  steps:
+  - intent: Info_about_letx
+  - action: utter_Info_about_letx
+
+- rule: rule about out of scope
+  steps:
+  - intent: Out_of_scope
+  - action: utter_Out_of_scope
+
+- rule: rule about ok
+  steps:
+  - intent: ok_res
+  - action: utter_ok_res
