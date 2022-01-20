@@ -1,6 +1,16 @@
 version: "3.0"
 
 nlu:
+- intent: ok_res
+  examples: |
+    - Ok
+    - Okk
+    - Okk fine
+    - I am ok
+    - Hm
+    - Hmm
+    - Okkk
+
 - intent: Quarantine_visits
   examples: |
     -	Can my friends visit me?
@@ -1015,3 +1025,60 @@ nlu:
     - What sports are being cancelled?
     - Will I get a refund for a ticket I purchased?
     - can I still attend a conference
+
+- intent: Info_about_letx
+  examples: |
+    - Tell me about Letx
+    - What is Letx?
+    - Who are Letx?
+    - Can you tell me something about LetX?
+    - Who are in Team LetX?
+    - Describe Letx?
+    - LetX
+    - Mention Letx?
+    - Who are letx?
+    - Everything about Letx?
+    - Is letx potential?
+    - How good Team Letx is?
+    - What do you know about Letx?
+    - Your thinking about Letx?
+    - Letx team
+    - Team Letx description.
+    - About Letx Team
+    - About your Developers.
+    - Your developers Letx.
+    - Give me information about team Letx.
+    - Info about Letx.
+    - All information and reach of Letx.
+    - Summary about LEtx.
+    
+- intent: Out_of_scope
+  examples: |
+    - abcdfr
+    - jklvjkndnvd
+    - sdnsdfvkjdnfvs
+    - nnssd nvjndfvdsn sjdnvjvdnj  sdvnjsdn
+    - svnjv ndnvjsnvk kjshkhsa jbchschs
+    - nshnvsinvs sjcsd
+    - sbhchsbjsdn kkiik
+    - what is love?
+    - Do you love me?
+    - What is meaning of xhhhh?
+    - cndnndn
+    - jsdnjsdn
+    - /'/'/'/'/'njjfdfddfnn/'
+    - "....jjkk...jh"
+    - "You are dumb"
+    - "You are lol"
+    - "I love you"
+    - "Do you play basketball"
+    - ";., ;   ; ,nnddnjnd"
+    - "You are dumb"
+    - "You are bakwass"
+    - "I love myself"
+    - "Do you play cricket"
+    - "nbhfb jndj hdksj kkk "
+    - "a b c d e f g h i j k l m n o p q r s t u v w x y z"
+    - "1 2 3 4 5 6 7 8 9 0"
+    - "abjdgdkdkj@gmail.com"  
+

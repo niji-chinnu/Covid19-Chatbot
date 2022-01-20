@@ -58,8 +58,20 @@ intents:
   - Treatment_reached_capacity
   - COVID_Mortality_Rate_Likelihood
   - Event_Shutdowns
+  - Info_about_letx
+  - Out_of_scope
+  - ok_res
 
 responses:
+  utter_ok_res:
+  - text: "Hmm"
+
+  utter_Out_of_scope:
+  - text: "Sorry I am unable to understand your question or your question is not related to Covid-19 Information."
+
+  utter_Info_about_letx:
+  - text: "Team Letx developed me consist of 5 memebers Shubham, Shravya, Yug, Niji, Rishabh."
+
   utter_Quarantine_visits:
   - text: "According to my suggestion it will be safe for you if you maintain the distance of 2 meters or 6 feet from the members"
 
@@ -70,7 +82,7 @@ responses:
   - text: "A pandemic is the worldwide spread of a new disease,COVID-19. An epidemic, is when many more cases of a health condition occur than expected in a certain region, but it does not spread further."
 
   utter_About_Anezka_WhoAreYou:
-  - text: "I am a chatbot powered by Rasa"
+  - text: "I am a COVID-19 Information Bot developed by team LetX"
 
   utter_Quarantine_living_alone:
   - text: "Isolate immediately and get tested. Continue to stay home until you know the results."
@@ -91,10 +103,10 @@ responses:
   - text: "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus were discovered in Wuhan, China."
 
   utter_general_Help:
-  - text: "How can I help you?"
+  - text: "Ok no problem I am here to help you..Tell me How can I help you?"
 
   utter_Testing_information:
-  - text: "PCR test, also called a molecular test or polymerase chain reaction test, detects genetic material specific to the virus that causes COVID-19.It is often more accurate than a rapid test, especially in individuals without symptoms"
+  - text: "Available test:- PCR test, also called a molecular test or polymerase chain reaction test, detects genetic material specific to the virus that causes COVID-19.It is often more accurate than a rapid test, especially in individuals without symptoms"
 
   utter_travel_risk_countries:
   - text: "US, INDIA,BRAZIL,UK,FRANCE are the countrties with highest number of covid cases and high risk to travel."
@@ -163,7 +175,7 @@ responses:
   - text: " Sorry for the inconvenience, How can i help you? "
 
   utter_masks_availability:
-  - text: "Sorruy for the inconenience.The masks will be available soon"
+  - text: "Sorry for the inconenience.The masks will be available soon"
 
   utter_Quarantine_social_aid:
   - text: "Yes,you can work from home during quarantine.Make sure you comply with Quarantine Act and follow Public Health Guidelines "
@@ -208,7 +220,7 @@ responses:
   - text: "Its based on the type of test you have taken.Please follow the guidelines issued by the respective local government "
 
   utter_About_Anezka_Greeting:
-  - text: "Good Morning"
+  - text: "Hello..Say What do you want to know."
 
   utter_schools_erasmus:
   - text: "Please follow the mentioned link to get the latest updates on Erasmus .https://erasmus-plus.ec.europa.eu/"
@@ -217,7 +229,7 @@ responses:
   - text: "On average it takes 5-6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days."
 
   utter_Treatment_hospital_capacity:
-  - text: "Please folow the mentioned link to get latest updates on Hospital bed availability"
+  - text: "Please folow the mentioned link to get latest updates on Hospital bed availability. https://apps.bbmpgov.in/Covid19/en/bedstatus.php"
 
   utter_masks_protection:
   - text: " Yes. Face masks combined with other preventive measures, such as getting vaccinated, frequent hand-washing and social distancing, can help slow the spread of the virus that causes COVID-19."

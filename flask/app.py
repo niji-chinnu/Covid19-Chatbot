@@ -1,5 +1,6 @@
 #####################Import all Modules ########################################
 from urllib import response
+from aio_pika import message
 from flask import Flask, render_template,request
 from rasa.utils.endpoints import EndpointConfig
 from rasa.core.agent import Agent
@@ -10,13 +11,12 @@ import tensorflow as tf
 
 ################### Declare Application #############################################
 app = Flask(__name__)
-
 ######################Pre config #################################################
 
 
 with tf.device("cpu:0"):
     nest_asyncio.apply()
-    modelPath=r"C:\Users\luhar\Projects\Covid19-Chatbot\models\20220119-125350-creative-fender.tar.gz"
+    modelPath=r"C:\Users\luhar\Projects\Covid19-Chatbot\models\20220121-000757-foggy-cube.tar.gz"
     agent = Agent.load(str(modelPath))
     async def parse(text: Text):
         global agent
@@ -24,10 +24,15 @@ with tf.device("cpu:0"):
         return response
 
 
-@app.route("/", methods=['GET','POST'])
+@app.route("/")
 def home():
+    return render_template('index.html')
+
+
+@app.route("/start", methods=['GET','POST'])
+def start():
     ret=""
-    msg=""
+    msg="Hello"
     if request.method=='POST':
         msg=request.form['fname']
 
@@ -44,8 +49,7 @@ def home():
     else:
         ret='The response was not valid'
 
-    return render_template('home.html',values=ret)
-
+    return render_template('index.html',message=msg,response=ret)
 
 if __name__=="__main__":
     app.run(debug= True)
