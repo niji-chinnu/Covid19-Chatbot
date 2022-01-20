@@ -2,6 +2,11 @@ version: "3.0"
 
 stories:
 
+- story: ok_lol
+  steps:
+  - intent: ok_res
+  - action: utter_ok_res
+
 - story: visit
   steps:
   - intent: Quarantine_visits
@@ -44,7 +49,7 @@ stories:
 
 - story: reply with yes 
   steps:
-  - intent: yes
+  - intent: 'yes'
   - action: utter_yes
 
 - story: About Corona virus 
@@ -176,7 +181,6 @@ stories:
   steps:
   - intent: Quarantine_social_aid
   - action: utter_Quarantine_social_aid
-
   
 - story: Test Locations 
   steps:
@@ -253,7 +257,6 @@ stories:
   - intent: About_Anezka_Greeting
   - action: utter_About_Anezka_Greeting
 
-
 - story: School erasmus
   steps:
   - intent: schools_erasmus
@@ -288,3 +291,19 @@ stories:
   steps:
   - intent: Event_Shutdowns
   - action: utter_Event_Shutdowns
+
+- story: Events During covid 
+  steps:
+  - intent: Event_Shutdowns
+  - action: utter_Event_Shutdowns
+
+- story: Info about team
+  steps:
+  - intent: Info_about_letx
+  - action: utter_Info_about_letx
+
+- story: outer scope
+  steps:
+  - intent: Out_of_scope
+  - action: utter_Out_of_scope
+
