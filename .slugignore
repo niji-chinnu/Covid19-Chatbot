@@ -1,0 +1,5 @@
+/.rasa
+/data
+*.txt
+*.md
+*.ipynb
