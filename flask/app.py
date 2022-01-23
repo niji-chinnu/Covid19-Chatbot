@@ -1,8 +1,5 @@
 #####################Import all Modules ########################################
-from urllib import response
-from aio_pika import message
 from flask import Flask, render_template,request
-from rasa.utils.endpoints import EndpointConfig
 from rasa.core.agent import Agent
 import asyncio
 import nest_asyncio
@@ -16,7 +13,7 @@ app = Flask(__name__)
 
 with tf.device("cpu:0"):
     nest_asyncio.apply()
-    modelPath=r"C:\Users\luhar\Projects\Covid19-Chatbot\models\20220121-000757-foggy-cube.tar.gz"
+    modelPath=r"C:\Users\luhar\Projects\Covid19-Chatbot\models\20220123-135605-allegro-ridge.tar.gz"
     agent = Agent.load(str(modelPath))
     async def parse(text: Text):
         global agent
