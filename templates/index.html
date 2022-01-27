@@ -320,23 +320,24 @@
             <div class="chat-history">
               <ul class="m-b-0">
                 <li class="clearfix">
-                  {% if message %}
-                  <div class="message other-message float-right"> {{message}} </div>
-                  {% endif %}
+                  <div class="message my-message">Hello, How can I help you?</div>
+                </li>
+                {% for my_item in message_hist %}
+
+                <li class="clearfix">
+                  <div class="message other-message float-right"> {{my_item}} </div>
                 </li>
                 <li class="clearfix">
-                  {% if response %}
-                  <div class="message my-message">{{response}}</div>
-                  {% endif %}
+                  <div class="message my-message">{{message_hist[my_item]}}</div>
                 </li>
-
+                {% endfor %}
 
 
               </ul>
             </div>
           </div>
 
-          <form action="/start" method="POST">
+          <form action="/" method="POST">
             <div class="d-flex align-items-start flex-column">
               <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Chat here" name="fname" aria-label="Recipient's username"
