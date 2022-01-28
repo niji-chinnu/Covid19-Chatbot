@@ -24,7 +24,6 @@ with tf.device("cpu:0"):
 message_hist={}
 
 @app.route("/",methods=['GET','POST'])
-
 def home():
     
 
@@ -58,4 +57,4 @@ def home():
 
 if __name__=="__main__":
     app.run(debug= True)
-    message_hist={}
+    session.clear()
